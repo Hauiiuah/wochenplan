@@ -4,7 +4,7 @@ A tool to organize my weekly meals with my wife.
 
 ## Planned features:
 
-- [] Create recipes with the needed ingredients
+- [ ] Create recipes with the needed ingredients
 
 - [] Select up to 6 of these recipes for the weekdays Mo - Sa (Sunday is excluded, we order food then;-))
 
