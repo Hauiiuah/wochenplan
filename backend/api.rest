@@ -29,3 +29,7 @@ Content-Type: application/json
     "name" : "Koriander",
     "unit" :"gr"
 }
+
+###
+
+GET http://localhost:1337/recipes HTTP/1.1

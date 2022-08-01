@@ -8,6 +8,7 @@ const bodyParser = require('body-parser')
 
 const ingredientRouter = require('./router/ingredient')
 const unitRouter = require('./router/units')
+const recipeRouter  = require('./router/recipes')
 
 try {
 	mongoose.connect(process.env.DB_CONNECT)
@@ -26,6 +27,7 @@ app.get('/', async (req, res) => {
 })
 app.use('/units', unitRouter)
 app.use('/ingredients', ingredientRouter)
+app.use('/recipes',recipeRouter)
 
 app.listen(port, () => {
 	console.log(`Backend listening on ${port}`)
