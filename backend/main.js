@@ -7,10 +7,7 @@ const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 
 
-const ingredientRouter = require('./router/ingredient')
-const unitRouter = require('./router/units')
-const recipeRouter  = require('./router/recipes')
-
+const apiRouter = require('./router/api')
 try {
 	mongoose.connect(process.env.DB_CONNECT)
 	console.log(`db connected to ${process.env.DB_CONNECT}`)
@@ -23,10 +20,8 @@ const port = 1337
 app.use(cors())
 app.use(bodyParser.json())
 
-app.use(express.static("build"))
-app.use('/units', unitRouter)
-app.use('/ingredients', ingredientRouter)
-app.use('/recipes',recipeRouter)
+app.use(express.static("build")) // Serve react app
+app.use('/api',apiRouter)
 
 app.listen(port, () => {
 	console.log(`Backend listening on ${port}`)
