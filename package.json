@@ -6,7 +6,8 @@
   "scripts": {
     "start": "react-scripts start",
     "start:backend": "node ./backend/main.js",
-    "dev:backend": "nodemon ./backend/main.js"
+    "dev:backend": "nodemon ./backend/main.js",
+    "dev:build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
