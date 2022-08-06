@@ -1,11 +1,9 @@
 import axios from "axios";
-
-
-const BASE_API_URL = process.env.API_URL || 'http://localhost:1337/api/'
+import config from "../config";
 
 
 const getAll = async () => {
-    const result = await axios.get(BASE_API_URL+'ingredients')
+    const result = await axios.get(config.BASE_API_URL+'ingredients')
     return result.data
 }
 const ingredientsProvider = {getAll}
