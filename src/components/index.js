@@ -1,3 +1,3 @@
 import MenuCards from './menu/menucards'
-
-export { MenuCards }
+import ModalFrame from "./modalframe";
+export { MenuCards, ModalFrame }
