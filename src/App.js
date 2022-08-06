@@ -1,13 +1,30 @@
-import { MenuCards } from './components'
+
+import { MenuCards,ModalFrame } from './components'
+import {RecipeProvider} from "./services";
+import {useState} from "react";
 
 const Header = () => <div className='header'></div>
-const Footer = () => (
+const Footer = ({onClick}) => (
 	<div className='footer'>
-		<button className='gen-shoppinglist-btn'>Einkaufsliste generieren</button>
+		<button className='gen-shoppinglist-btn' onClick={onClick}>Einkaufsliste generieren</button>
 	</div>
 )
 
+
+
+
+RecipeProvider.getAll().then((data) =>{
+	console.log(data)
+})
+
 const App = () => {
+
+	const [modalVisible,setModalVisible] = useState(false)
+	const showModal = () => {
+		console.log('Show modal pressed')
+		setModalVisible(true)
+
+	}
 	const menus = [
 		{
 			name: 'Hähnchen unter Senfbrösel-Haube',
@@ -44,9 +61,26 @@ const App = () => {
 
 	return (
 		<div className='content'>
+			<ModalFrame
+				title={"Einkaufsliste generieren"}
+				visible={modalVisible}
+				hasFailure={true}
+				onSuccess={()=>{
+					console.log('Success')
+					setModalVisible(false)
+				}}
+				onClose={() => {
+					console.log('Failure')
+					setModalVisible(false)
+				}}>
+				<ul>
+					<li>Kacke im Quadrat</li>
+					<li>Wurst im Wasser</li>
+				</ul>
+			</ModalFrame>
 			<Header />
 			<MenuCards menus={menus} />
-			<Footer />
+			<Footer onClick={showModal}/>
 		</div>
 	)
 }
