@@ -4,7 +4,7 @@ const MenuCards = ({ menus }) => {
 	return (
 		<div className='menu-cards'>
 			{menus.map((menu, index) => (
-				<Menu menu={menu} weekday={index} />
+				<Menu key={index} menu={menu} weekday={index} />
 			))}
 		</div>
 	)
