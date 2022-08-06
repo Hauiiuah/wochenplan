@@ -2,8 +2,8 @@ import { MenuCards } from './components'
 
 const Header = () => <div className='header'></div>
 const Footer = () => (
-	<div class='footer'>
-		<button class='gen-shoppinglist-btn'>Einkaufsliste generieren</button>
+	<div className='footer'>
+		<button className='gen-shoppinglist-btn'>Einkaufsliste generieren</button>
 	</div>
 )
 
