@@ -17,6 +17,27 @@ RecipeProvider.getAll().then((data) =>{
 	console.log(data)
 })
 
+const RecipeResultSelectionList = ({results}) =>{
+
+}
+
+const SelectRecipeForm = () => {
+
+	const results ={}
+
+	return (
+		<>
+			<div className="searchbar">
+				<label htmlFor="quicksearch">Suche:</label>
+				<input type="text" id="quicksearch"></input>
+			</div>
+
+			<RecipeResultSelectionList results={results} />
+		</>
+	)
+
+}
+
 const App = () => {
 
 	const [modalVisible,setModalVisible] = useState(false)
@@ -73,14 +94,13 @@ const App = () => {
 					console.log('Failure')
 					setModalVisible(false)
 				}}>
-				<ul>
-					<li>Kacke im Quadrat</li>
-					<li>Wurst im Wasser</li>
-				</ul>
+				<SelectRecipeForm />
 			</ModalFrame>
 			<Header />
 			<MenuCards menus={menus} />
 			<Footer onClick={showModal}/>
+
+			<SelectRecipeForm />
 		</div>
 	)
 }

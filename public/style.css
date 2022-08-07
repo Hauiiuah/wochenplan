@@ -25,6 +25,13 @@ body {
 	padding-top: 10px;
 }
 
+
+.searchbar{
+	margin-inline: 20px;
+	display: flex;
+	flex-direction: column;
+
+}
 .modal-frame{
 
 	position: fixed;
