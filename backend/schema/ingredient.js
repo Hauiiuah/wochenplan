@@ -3,7 +3,7 @@ const { Schema } = mongoose
 
 const ingredientSchema = new Schema({
 	name: String,
-	unit: String,
+	unit: String
 })
 
 const Ingredient = mongoose.model('Ingredient', ingredientSchema)
