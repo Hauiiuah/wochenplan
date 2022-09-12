@@ -1,6 +1,6 @@
 import  Menu from './menu.js'
 
-const MenuCards = ({ menus }) => {
+const MenuCards = ({ menus, updateMenuCallback }) => {
 	const days = [
 		'Montag',
 		'Dienstag',
@@ -9,10 +9,14 @@ const MenuCards = ({ menus }) => {
 		'Freitag',
 		'Samstag',
 	]
+
+
+	if(!menus) return
+
 	return (
 		<div className='menu-cards'>
 			{menus.map((menu, index) => (
-				<Menu key={index} menu={menu} weekday={days[index]} />
+				<Menu key={index} menu={menu} weekday={days[index]} updateMenuCallback={(recipe) => updateMenuCallback(recipe,index)}  />
 			))}
 		</div>
 	)

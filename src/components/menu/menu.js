@@ -1,34 +1,65 @@
-import {useState} from "react";
-import {ModalFrame} from '../index'
+import {useEffect, useState} from "react";
+import {ModalFrame,RecipeSelector} from '../index'
 
-const Menu = ({ menu, weekday }) => {
+const Menu = ({ menu, weekday,updateMenuCallback}) => {
+
 	const [modalVisible, setModalVisible] = useState(false)
+	const [currentMenu,setCurrentMenu] =useState({})
+
+
+	useEffect(() => {
+		setCurrentMenu(menu)
+	},[menu])
+
+
+	const abortSelection = () => {
+		console.log('abortSelection')
+		setModalVisible(false)
+		setCurrentMenu(null);
+	}
+
+	const successFullSelection = () => {
+		console.log('successFullSelection')
+		setModalVisible(false)
+		if(currentMenu){
+			console.log("Save to DB")
+			updateMenuCallback(currentMenu)
+		}
+	}
 
 
 	return (
 		<div className='menu'>
-			<ModalFrame title={`Gericht auswählen für ${weekday}`} visible={modalVisible} onClose={() => setModalVisible(false)}>
 
+			<ModalFrame
+				title={`Gericht auswählen für ${weekday}`}
+				visible={modalVisible}
+				onClose={abortSelection}
+				onSuccess={successFullSelection}>
+				<RecipeSelector selectRecipeCallback={setCurrentMenu}/>
 			</ModalFrame>
 			<p className='weekday gray'>{weekday}:</p>
-			<p className='menu-name'>{menu?.name || ''}</p>
+			<p className='menu-name'>{currentMenu?.name || ''}</p>
 
 			<div className='center'>
 				<div className='center-block gray'></div>
-				{menu
-					? <img src={`./assets/${menu.img}`} alt={menu.name} />
+				{currentMenu
+					? <img src={`./assets/${currentMenu.img}`} alt={currentMenu.name} />
 					: <div className='center-button-block'>
 						<button className='select-menu-btn' onClick={() => setModalVisible(true)}>Gericht auswählen</button>
 					</div> }
 			</div>
 
 			<div className='menu-bottom'>
-				<p>{menu ? `${menu.duration} min` : ""}</p>
-				<p>{menu ? `${menu.cals}kcal` : ""}</p>
+				<p>{currentMenu ? `${currentMenu.duration} min` : ""}</p>
+				<p>{currentMenu ? `${currentMenu.cals}kcal` : ""}</p>
 			</div>
 			<div className='left gray'>
-				{menu ? <button>
-					<span className='delete'></span>
+				{currentMenu ? <button onClick={()=>{
+					setCurrentMenu(null)
+					updateMenuCallback(null)
+				}}>
+					<span className='delete'></span>Delete
 				</button> : <></>}
 			</div>
 		</div>
