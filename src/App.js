@@ -1,106 +1,53 @@
 
-import { MenuCards,ModalFrame } from './components'
-import {RecipeProvider} from "./services";
-import {useState} from "react";
+import { MenuCards,ShoppingList,WeekNavigator,Layout } from './components'
 
-const Header = () => <div className='header'></div>
-const Footer = ({onClick}) => (
-	<div className='footer'>
-		<button className='gen-shoppinglist-btn' onClick={onClick}>Einkaufsliste generieren</button>
-	</div>
-)
+import {useState, useEffect} from "react";
+
+import MenuProvider from "./services/menuProvider";
 
 
 
-
-RecipeProvider.getAll().then((data) =>{
-	console.log(data)
-})
-
-const RecipeResultSelectionList = ({results}) =>{
-
-}
-
-const SelectRecipeForm = () => {
-
-	const results ={}
-
-	return (
-		<>
-			<div className="searchbar">
-				<label htmlFor="quicksearch">Suche:</label>
-				<input type="text" id="quicksearch"></input>
-			</div>
-
-			<RecipeResultSelectionList results={results} />
-		</>
-	)
-
-}
 
 const App = () => {
 
-	const [modalVisible,setModalVisible] = useState(false)
-	const showModal = () => {
-		console.log('Show modal pressed')
-		setModalVisible(true)
+
+	const emptyMeals=Array.from({length: 6},()=>null)
+
+	const [menus, setMenus] = useState([])
+	const [actualWeek, setActualWeek] = useState('')
+
+	useEffect(() => {
+		(async() => {
+			const menus = await MenuProvider.getForWeek(actualWeek)
+			if(!menus) {
+				setMenus(emptyMeals)
+				return
+			}
+
+			setMenus(menus.meals)
+		})()
+
+
+	},[actualWeek,emptyMeals])
+
+
+	const updateMenu=async (menu,weekday)=>{
+		console.log('UpdateMenu',{menu,weekday})
+		let newMenu = [...menus]
+		newMenu[weekday]=menu
+		const dbResult = await MenuProvider.updateMenu(newMenu, actualWeek)
+		setMenus(dbResult.meals)
+
+
 
 	}
-	const menus = [
-		{
-			name: 'Hähnchen unter Senfbrösel-Haube',
-			cals: 695,
-			duration: 35,
-			img: 'menu-bg.png',
-		},
-		{
-			name: 'Hacksülze',
-			cals: 1337,
-			duration: 123,
-			img: 'menu-bg.png',
-		},
-		{
-			name: 'Pommes und kleine Fleisch',
-			cals: 123,
-			duration: 5,
-			img: 'menu-bg.png',
-		},
-		null,
-		{
-			name: 'Eurodöner',
-			cals: 1000,
-			duration: 15,
-			img: 'menu-bg.png',
-		},
-		{
-			name: 'Box 3 fettich bei Ihnen',
-			cals: 1,
-			duration: 20,
-			img: 'menu-bg.png',
-		},
-	]
 
 	return (
 		<div className='content'>
-			<ModalFrame
-				title={"Einkaufsliste generieren"}
-				visible={modalVisible}
-				hasFailure={true}
-				onSuccess={()=>{
-					console.log('Success')
-					setModalVisible(false)
-				}}
-				onClose={() => {
-					console.log('Failure')
-					setModalVisible(false)
-				}}>
-				<SelectRecipeForm />
-			</ModalFrame>
-			<Header />
-			<MenuCards menus={menus} />
-			<Footer onClick={showModal}/>
-
-			<SelectRecipeForm />
+			<Layout.Header />
+			<WeekNavigator updateWeekCallback={(week) => setActualWeek(week)}/>
+			<MenuCards menus={menus} updateMenuCallback={updateMenu}/>
+			<ShoppingList menus={menus}/>
 		</div>
 	)
 }
