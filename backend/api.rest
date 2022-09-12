@@ -33,3 +33,41 @@ Content-Type: application/json
 ###
 
 GET http://localhost:1337/recipes HTTP/1.1
+
+###
+GET http://localhost:1337/api/menus/2022/36 HTTP/1.1
+
+###
+POST http://localhost:1337/api/menus HTTP/1.1
+Content-Type: application/json
+
+{
+  "nothing": "DoIt"
+}
+
+###
+PUT http://localhost:1337/api/menus/2022/36 HTTP/1.1
+Content-Type: application/json
+
+
+{
+  "_id": {
+    "$oid": "631eeeac546b479fe4ac1144"
+  },
+  "name": "Currywurst",
+  "cals": 1042,
+  "duration": 5,
+  "img": "menu-bg.png",
+  "ingredients": [
+    {
+      "name": "Wurst",
+      "amount": 1,
+      "unit": "Stk."
+    },
+    {
+      "name": "Pommes",
+      "amount": 100,
+      "unit": "gr"
+    }
+  ]
+}
