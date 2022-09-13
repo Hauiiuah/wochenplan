@@ -673,6 +673,1032 @@
         "unit": "g"
       }
     ]
+  },
+  {
+    "name": "Gelbes Curry mit buntem Ofengemüse & Erdnüssen",
+    "cals": 866,
+    "duration": 40,
+    "img": "gelbes-curry-mit-buntem-ofengemuse-erdnussen.webp",
+    "recipe": null,
+    "ingredients": [
+      {
+        "name": "Buschbohnen",
+        "amount": 150,
+        "unit": "g"
+      },{
+        "name": "Champignons",
+        "amount": 100,
+        "unit": "g"
+      },{
+        "name": "Erdnüsse",
+        "amount": 10,
+        "unit": "g"
+      },{
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Karotte",
+        "amount": 2,
+        "unit": "Stk"
+      },{
+        "name": "Kokosmilch",
+        "amount": 180,
+        "unit": "ml"
+      },{
+        "name": "Chapati-Brot",
+        "amount": 4,
+        "unit": "Stk"
+      },{
+        "name": "gelbe Currypaste",
+        "amount": 25,
+        "unit": "g"
+      },{
+        "name": "Ingwer",
+        "amount": 15,
+        "unit": "g"
+      },{
+        "name": "rote Chilischote",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Gemüsebrühe",
+        "amount": 4,
+        "unit": "g"
+      },{
+        "name": "gelbe Paprika",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Petersilie",
+        "amount": 10,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "name": "Kartoffelklöße mit Bacon-Rahmschwammerln",
+    "cals": 705,
+    "duration": 40,
+    "img": "kartoffelklosze-mit-bacon-rahmschwammerln.webp",
+    "recipe": null,
+    "ingredients": [
+      {
+        "name": "Mini-Klöße",
+        "amount": 375,
+        "unit": "g"
+      },{
+        "name": "Semmelbrösel",
+        "amount": 25,
+        "unit": "g"
+      },{
+        "name": "Petersilie",
+        "amount": 10,
+        "unit": "g"
+      },{
+        "name": "Champignons",
+        "amount": 225,
+        "unit": "g"
+      },{
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Bacon (Streifen)",
+        "amount": 80,
+        "unit": "g"
+      },{
+        "name": "Gemüsebrühe",
+        "amount": 4,
+        "unit": "g"
+      },{
+        "name": "Kochsahne",
+        "amount": 200,
+        "unit": "g"
+      },{
+        "name": "Feldsalat",
+        "amount": 75,
+        "unit": "g"
+      },{
+        "name": "mittelscharfer Senf",
+        "amount": 10,
+        "unit": "ml"
+      },{
+        "name": "Honig",
+        "amount": 8,
+        "unit": "g"
+      },{
+        "name": "Rotweinessig",
+        "amount": 12,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "name": "Teriyaki-Hähnchenpfanne mit Pak Choi",
+    "cals": 672,
+    "duration": 40,
+    "img": "teriyaki-hahnchenpfanne-mit-pak-choi.jpg",
+    "recipe": null,
+    "ingredients": [
+      {
+        "name": "Kokosmilch",
+        "amount": 180,
+        "unit": "ml"
+      },{
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Sojasoße",
+        "amount": 50,
+        "unit": "ml"
+      },{
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Pak Choi",
+        "amount": 1,
+        "unit": "Stk"
+      }
+      ,{
+        "name": "Basmatireis",
+        "amount": 150,
+        "unit": "g"
+      },{
+        "name": "Honig",
+        "amount": 8,
+        "unit": "g"
+      },{
+        "name": "Ingwer",
+        "amount": 15,
+        "unit": "g"
+      },{
+        "name": "rote Paprika",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Hähnchenbrustfilet",
+        "amount": 250,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "name": "Cheeseburger mit verstecktem Gemüse",
+    "cals": 705,
+    "duration": 40,
+    "img": "cheeseburger-mit-verstecktem-gemuse.webp",
+    "recipe": null,
+    "ingredients": [
+      {
+        "name": "Brioche Bun, natur",
+        "amount": 2,
+        "unit": "Stk"
+      },{
+        "name": "Simmentaler Rinderhackfleisch",
+        "amount": 200,
+        "unit": "g"
+      },{
+        "name": "Karotte",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Gouda",
+        "amount": 50,
+        "unit": "g"
+      },{
+        "name": "vorw. festk. Kartoffeln",
+        "amount": 400,
+        "unit": "g"
+      },{
+        "name": "Gewürzmischung \"Hello Paprika\"",
+        "amount": 4,
+        "unit": "g"
+      },{
+        "name": "Salatherz (Romana)",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "saure Sahne",
+        "amount": 150,
+        "unit": "g"
+      },{
+        "name": "Schalotte",
+        "amount": 1,
+        "unit": "Stk"
+      }
+    ,{
+        "name": "Tomate",
+        "amount": 1,
+        "unit": "Stk"
+      }
+    ]
+  },
+  {
+    "name": "Spaghetti mit cremiger Paprikasoße",
+    "cals": 938,
+    "duration": 35,
+    "img": "spaghetti-mit-cremieger-paprikasosze.webp",
+    "recipe": null,
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "amount": 270,
+        "unit": "g"
+      },{
+        "name": "rote Spitzpaprika",
+        "amount": 2,
+        "unit": "Stk"
+      },{
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Schalotte",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Gemüsebrühe",
+        "amount": 4,
+        "unit": "g"
+      },{
+        "name": "Gewürzmischung \"Hello Paprika\"",
+        "amount": 4,
+        "unit": "g"
+      },{
+        "name": "Frischkäse",
+        "amount": 150,
+        "unit": "g"
+      },{
+        "name": "Pinienkerne",
+        "amount": 20,
+        "unit": "g"
+      },{
+        "name": "Hartkäse geraspelt",
+        "amount": 40,
+        "unit": "g"
+      },{
+        "name": "Basilikum",
+        "amount": 10,
+        "unit": "g"
+      }
+    ]
+  }
+  ,{
+  "name": "Käsige Hackbällchen mit Rahmkohlrabi",
+  "cals": 801,
+  "duration": 40,
+  "img": "kasige-hackballchen-mit-rahmkohlrabi.jpg",
+  "recipe": null,
+  "ingredients": [
+    {
+      "name": "Kohlrabi",
+      "amount": 1,
+      "unit": "Stk"
+    },{
+      "name": "gemischtes Hackfleisch",
+      "amount": 300,
+      "unit": "g"
+    },{
+      "name": "Muskatnuss",
+      "amount": 0.5,
+      "unit": "g"
+    },{
+      "name": "Schalotte",
+      "amount": 1,
+      "unit": "Stk"
+    },{
+      "name": "Petersilie",
+      "amount": 10,
+      "unit": "g"
+    },{
+      "name": "Butter",
+      "amount": 10,
+      "unit": "g"
+    },{
+      "name": "geriebener Gouda",
+      "amount": 50,
+      "unit": "g"
+    },{
+      "name": "mittelscharfer Senf",
+      "amount": 10,
+      "unit": "ml"
+    },{
+      "name": "Kochsahne",
+      "amount": 200,
+      "unit": "g"
+    },{
+      "name": "Gemüsebrühe",
+      "amount": 4,
+      "unit": "g"
+    },{
+      "name": "Buschbohnen",
+      "amount": 200,
+      "unit": "g"
+    },{
+      "name": "Knoblauchzehe",
+      "amount": 0.5,
+      "unit": "Stk"
+    }
+  ]
+},
+  {
+    "name": "Hähnchen \"Katsu\" mit Karottenreis",
+    "cals": 838,
+    "duration": 40,
+    "img": "hahnchen-katsu-mit-karottenreis.webp",
+    "recipe": "hahnchen-katsu-mit-karottenreis.pdf",
+    "ingredients": [
+      {
+        "name": "Jasminreis",
+        "amount": 150,
+        "unit": "g"
+      },{
+        "name": "Karotte",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Hähnchenbrustfilet",
+        "amount": 250,
+        "unit": "g"
+      },{
+        "name": "Pankomehl",
+        "amount": 30,
+        "unit": "g"
+      },{
+        "name": "Mayonnaise",
+        "amount": 34,
+        "unit": "ml"
+      },{
+        "name": "Teriyakisoße",
+        "amount": 50,
+        "unit": "ml"
+      },{
+        "name": "Pflaumenmus",
+        "amount": 20,
+        "unit": "g"
+      },{
+        "name": "Gurke",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "rote Chilischote",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Sweet-Chili-Soße",
+        "amount": 25,
+        "unit": "g"
+      },{
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stk"
+      }
+    ]
+  },
+  {
+    "name": "Pasta nach Carbonara Art",
+    "cals": 783,
+    "duration": 40,
+    "img": "pasta-nach-carbonara-art.jpg",
+    "recipe": "pasta-nach-carbonara-art.pdf",
+    "ingredients": [
+      {
+        "name": "Kochsahne",
+        "amount": 200,
+        "unit": "g"
+      },{
+        "name": "Hühnerbrühe",
+        "amount": 4,
+        "unit": "g"
+      },{
+        "name": "Brokkoli",
+        "amount": 250,
+        "unit": "g"
+      },{
+        "name": "Kirschtomaten",
+        "amount": 125,
+        "unit": "g"
+      },{
+        "name": "Bacon (Scheiben)",
+        "amount": 100,
+        "unit": "g"
+      },{
+        "name": "Hartkäse geraspelt",
+        "amount": 40,
+        "unit": "g"
+      },{
+        "name": "frische Linguine",
+        "amount": 250,
+        "unit": "g"
+      },{
+        "name": "Maisstärke",
+        "amount": 6,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "name": "Griechische Platte mit zweierlei Souflaki",
+    "cals": 1450,
+    "duration": 75,
+    "img": "griechische-grillplatte-mit-zweierlei-souvlaki.jpg",
+    "recipe": null,
+    "ingredients": [
+      {
+        "name": "Hähnchenbrustfilet",
+        "amount": 250,
+        "unit": "g"
+      },{
+        "name": "gemischtes Hackfleisch",
+        "amount": 200,
+        "unit": "g"
+      },{
+        "name": "Schweinefilet",
+        "amount": 250,
+        "unit": "g"
+      },{
+        "name": "Zitrone",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Gurke",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Tomate",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "rote Spitzpaprika",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Holzspieße",
+        "amount": 4,
+        "unit": "Stk"
+      },{
+        "name": "Hirtenkäse",
+        "amount": 100,
+        "unit": "g"
+      },{
+        "name": "Gewürzmischung \"Hello Mezze\"",
+        "amount": 4,
+        "unit": "g"
+      },{
+        "name": "Sahnejoghurt",
+        "amount": 100,
+        "unit": "g"
+      },{
+        "name": "Orzo-Nudeln",
+        "amount": 180,
+        "unit": "g"
+      },{
+        "name": "Kalamata-Oliven ohne Stein",
+        "amount": 70,
+        "unit": "g"
+      },{
+        "name": "Hirtenkäse",
+        "amount": 100,
+        "unit": "g"
+      },{
+        "name": "Gewürzmischung \"Hello Buan Appetito\"",
+        "amount": 4,
+        "unit": "g"
+      },{
+        "name": "Gewürzmischung \"Hello Souflaki\"",
+        "amount": 4,
+        "unit": "g"
+      }
+
+    ]
+  },
+  {
+    "name": "Enchiladas mit rauchiger Tomatensoße",
+    "cals": 1117,
+    "duration": 50,
+    "img": "enchiladas-mit-rauchiger-tomatensosze.webp",
+    "recipe": null,
+    "ingredients": [
+      {
+        "name": "Tortilla-Wraps",
+        "amount": 4,
+        "unit": "Stk"
+      },{
+        "name": "Käse-Mix",
+        "amount": 50,
+        "unit": "g"
+      },{
+        "name": "gelbe Paprika",
+        "amount": 2,
+        "unit": "Stk"
+      },{
+        "name": "Tomatenmark",
+        "amount": 70,
+        "unit": "g"
+      },{
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Schmand",
+        "amount": 150,
+        "unit": "g"
+      },{
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "rote Chilischote",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Gewürzmischung \"Hello Smoky Paprika\"",
+        "amount": 3,
+        "unit": "g"
+      },{
+        "name": "Tomate",
+        "amount": 2,
+        "unit": "Stk"
+      },{
+        "name": "schwarze Bohnen",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Butter",
+        "amount": 20,
+        "unit": "g"
+      },{
+        "name": "Gemüsebrühe",
+        "amount": 4,
+        "unit": "g"
+      },{
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Stk"
+      }
+    ]
+  },
+  {
+    "name": "Bang Bang Jackfruit Nuggets!",
+    "cals": 935,
+    "duration": 40,
+    "img": "bang-bang-jackruit-nuggets.webp",
+    "recipe": null,
+    "ingredients": [
+      {
+        "name": "Jackfruit",
+        "amount": 400,
+        "unit": "g"
+      },{
+        "name": "Gewürzmischung \"Hello Smokey Paprika\"",
+        "amount": 3,
+        "unit": "g"
+      },{
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Basmatireis",
+        "amount": 150,
+        "unit": "g"
+      },{
+        "name": "vegane Mayonnaise",
+        "amount": 50,
+        "unit": "g"
+      },{
+        "name": "Sweet-Chili-Soße",
+        "amount": 50,
+        "unit": "g"
+      },{
+        "name": "Gurke",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Sesamöl",
+        "amount": 10,
+        "unit": "ml"
+      },{
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Weizenmehl",
+        "amount": 50,
+        "unit": "g"
+      },{
+        "name": "Panko-Mehl",
+        "amount": 50,
+        "unit": "g"
+      }
+    ]
+  },{
+  "name": "Pikantes Seelachsfilet in Kräutermarinade",
+  "cals": 484,
+  "duration": 40,
+  "img": "pikantes-seelachsfilet-in-krautermarinade.webp",
+  "recipe": "pikantes-seelachsfilet-in-krautermarinade.pdf",
+  "ingredients": [
+    {
+      "name": "Seelachs",
+      "amount": 250,
+      "unit": "g"
+    },{
+      "name": "Gewürzmischung \"Hello Grünzeug\"",
+      "amount": 4,
+      "unit": "g"
+    },{
+      "name": "Zucchini",
+      "amount": 1,
+      "unit": "Stk"
+    },{
+      "name": "Sonnenblumenkerne",
+      "amount": 10,
+      "unit": "g"
+    },{
+      "name": "Kartoffeln (Drillinge)",
+      "amount": 400,
+      "unit": "g"
+    },{
+      "name": "Mayonnaise",
+      "amount": 17,
+      "unit": "g"
+    },{
+      "name": "Joghurt",
+      "amount": 75,
+      "unit": "g"
+    },{
+      "name": "Frühlingszwiebel",
+      "amount": 1,
+      "unit": "Stk"
+    },{
+      "name": "rote Chilischote",
+      "amount": 1,
+      "unit": "Stk"
+    },{
+      "name": "Knoblauchzehe",
+      "amount": 1,
+      "unit": "g"
+    }
+  ]
+},{
+  "name": "Iskender! Türkisches Rinderhack-Gericht",
+  "cals": 892,
+  "duration": 40,
+  "img": "iskender-turkisches-rinderhack-gericht.webp",
+  "recipe": "iskender-turkisches-rinderhack-gericht.pdf",
+  "ingredients": [
+    {
+      "name": "rote Zwiebel",
+      "amount": 1,
+      "unit": "Stk"
+    },{
+      "name": "Knoblauchzehe",
+      "amount": 1,
+      "unit": "Stk"
+    },{
+      "name": "Gewürzmischung \"Hello Mezze\"",
+      "amount": 4,
+      "unit": "g"
+    },{
+      "name": "Minze/Petersilie",
+      "amount": 10,
+      "unit": "g"
+    },{
+      "name": "Tomate",
+      "amount": 2,
+      "unit": "Stk"
+    },{
+      "name": "Simmentaler Rinderhackfleisch",
+      "amount": 200,
+      "unit": "g"
+    },{
+      "name": "Mini-Fladenbrot",
+      "amount": 2,
+      "unit": "Stk"
+    },{
+      "name": "Tomatenmark",
+      "amount": 0.5,
+      "unit": "Stk"
+    },{
+      "name": "Joghurt",
+      "amount": 150,
+      "unit": "g"
+    },{
+      "name": "rote Paprika",
+      "amount": 1,
+      "unit": "Stk"
+    }
+  ]
+},
+  {
+    "name": "Kiwi-Halloumi-Burger mit Joghurt-Aioli",
+    "cals": 1166,
+    "duration": 40,
+    "img": "kiwi-halloumi-burger-mit-joghurt-aioli.webp",
+    "recipe": "kiwi-halloumi-burger-mit-joghurt-aioli.pdf",
+    "ingredients": [
+      {
+        "name": "Halloumi",
+        "amount": 200,
+        "unit": "g"
+      },{
+        "name": "Kiwi",
+        "amount": 80,
+        "unit": "g"
+      },{
+        "name": "Tomate",
+        "amount": 100,
+        "unit": "g"
+      },{
+        "name": "Gurke",
+        "amount": 0.5,
+        "unit": "Stk"
+      },{
+        "name": "Salatherz (Romana)",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Briochebrötchen",
+        "amount": 2,
+        "unit": "Stk"
+      },{
+        "name": "vorw. festk. Kartoffeln",
+        "amount": 400,
+        "unit": "g"
+      },{
+        "name": "Gewürzmischung \"Hello Paprika\"",
+        "amount": 2,
+        "unit": "g"
+      },{
+        "name": "Sahnejoghurt",
+        "amount": 100,
+        "unit": "g"
+      },{
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Mayonnaise",
+        "amount": 34,
+        "unit": "ml"
+      }
+    ]
+  },{
+  "name": "Rinderhackbällchen-Pfanne",
+  "cals": 752,
+  "duration": 40,
+  "img": "rinderhackballchen-pfanne.jpg",
+  "recipe": "rinderhackballchen-pfanne.pdf",
+  "ingredients": [
+    {
+      "name": "Rinderhackfleisch",
+      "amount": 200,
+      "unit": "g"
+    },{
+      "name": "mittelscharfer Senf",
+      "amount": 10,
+      "unit": "ml"
+    },{
+      "name": "rote Paprika",
+      "amount": 2,
+      "unit": "Stk"
+    },{
+      "name": "Tomatenmark",
+      "amount": 35,
+      "unit": "g"
+    },{
+      "name": "Worcester Sauce",
+      "amount": 8,
+      "unit": "ml"
+    },{
+      "name": "rote Zwiebel",
+      "amount": 1,
+      "unit": "Stk"
+    },{
+      "name": "Gewürzmischung \"Hello Paprika\"",
+      "amount": 6,
+      "unit": "g"
+    },{
+      "name": "Gemüsebrühe",
+      "amount": 4,
+      "unit": "g"
+    },{
+      "name": "Jasminreis",
+      "amount": 150,
+      "unit": "g"
+    },{
+      "name": "Oregano/Petersilie",
+      "amount": 10,
+      "unit": "g"
+    },{
+      "name": "Panko-Mehl",
+      "amount": 30,
+      "unit": "g"
+    }
+  ]
+},
+  {
+    "name": "Schweinefilet mit Honig-Senf-Gemüse",
+    "cals": 649,
+    "duration": 45,
+    "img": "schweinefilet-mit-honig-senf-gemuse.jpg",
+    "recipe": null,
+    "ingredients": [
+      {
+        "name": "Karotte",
+        "amount": 2,
+        "unit": "Stk"
+      },{
+        "name": "Kartoffeln (Drillinge)",
+        "amount": 400,
+        "unit": "g"
+      },{
+        "name": "Schweinefilet",
+        "amount": 250,
+        "unit": "g"
+      },{
+        "name": "Porree",
+        "amount": 0.5,
+        "unit": "Stk"
+      },{
+        "name": "körniger Senf",
+        "amount": 8,
+        "unit": "g"
+      },{
+        "name": "Kochsahne",
+        "amount": 150,
+        "unit": "g"
+      },{
+        "name": "Rinderbrühe",
+        "amount": 4,
+        "unit": "g"
+      },{
+        "name": "Gewürzmischung \"Hello Paprika\"",
+        "amount": 2,
+        "unit": "g"
+      },{
+        "name": "Honig",
+        "amount": 20,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "name": "Vegane Gnocchi in Spinat-Tomaten-Soße",
+    "cals": 596,
+    "duration": 40,
+    "img": "vegane-gnocchi-in-spinat-tomaten-sosze.webp",
+    "recipe": "vegane-gnocchi-in-spinat-tomaten-sosze.pdf",
+    "ingredients": [
+      {
+        "name": "Soja Kochcrème",
+        "amount": 75,
+        "unit": "ml"
+      },{
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "gelbe Paprika",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Basilikum/Schnittlauch",
+        "amount": 20,
+        "unit": "g"
+      },{
+        "name": "Tomaten Sugo",
+        "amount": 200,
+        "unit": "g"
+      },{
+        "name": "Walnüsse",
+        "amount": 20,
+        "unit": "g"
+      },{
+        "name": "Babyspinat",
+        "amount": 100,
+        "unit": "g"
+      },{
+        "name": "frische Gnocchi",
+        "amount": 400,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "name": "Hähnchenfilet in Cashewsoße",
+    "cals": 735,
+    "duration": 40,
+    "img": "hahnchenfilet-in-cashewsosze.jpg",
+    "recipe": null,
+    "ingredients": [
+      {
+        "name": "Hähnchenbrustfilet",
+        "amount": 250,
+        "unit": "g"
+      },{
+        "name": "Brokkoli",
+        "amount": 250,
+        "unit": "g"
+      },{
+        "name": "Cashewkerne",
+        "amount": 40,
+        "unit": "g"
+      },{
+        "name": "Hühnerbrühe",
+        "amount": 4,
+        "unit": "g"
+      },{
+        "name": "Balsamico-Crème",
+        "amount": 12,
+        "unit": "g"
+      },{
+        "name": "Gewürzmischung \"Hello Paprika\"",
+        "amount": 2,
+        "unit": "g"
+      },{
+        "name": "Kochsahne",
+        "amount": 105,
+        "unit": "g"
+      },{
+        "name": "getrocknete Aprikosen",
+        "amount": 20,
+        "unit": "g"
+      },{
+        "name": "Jasminreis",
+        "amount": 150,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "name": "Korean Beef Sandwich mit Koriander & Paprika",
+    "cals": 1154,
+    "duration": 40,
+    "img": "korean-beef-sandwich-mit-koriander-paprika.webp",
+    "recipe": "korean-beef-sandwich-mit-koriander-paprika.pdf",
+    "ingredients": [
+      {
+        "name": "Bulgogisoße",
+        "amount": 50,
+        "unit": "ml"
+      },{
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "rote Spitzpaprika",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Karotte",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Mayonnaise",
+        "amount": 68,
+        "unit": "ml"
+      },{
+        "name": "Sweet-Chili-Soße",
+        "amount": 25,
+        "unit": "g"
+      },{
+        "name": "Koriander",
+        "amount": 10,
+        "unit": "g"
+      },{
+        "name": "Sesam",
+        "amount": 10,
+        "unit": "g"
+      },{
+        "name": "Mini-Fladenbrot",
+        "amount": 2,
+        "unit": "Stk"
+      },{
+        "name": "Ofenkartoffel",
+        "amount": 2,
+        "unit": "Stk"
+      },{
+        "name": "Rinderhackfleisch",
+        "amount": 200,
+        "unit": "g"
+      }
+    ]
   }
 ]
 
