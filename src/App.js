@@ -25,7 +25,7 @@ const App = () => {
 		})()
 
 
-	},[actualWeek,emptyMeals])
+	},[actualWeek])
 
 
 	const updateMenu=async (menu,weekday)=>{
