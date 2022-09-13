@@ -68,6 +68,7 @@ body {
 	padding: 20px;
 	border: 1px solid #888888;
 	width: 80%;
+	max-height: 80vh;
 }
 .menu {
 	border: 1px solid black;
@@ -211,20 +212,8 @@ body {
 .shoppinglist tr:nth-child(even){
 	background-color: #d9d9d9;
 }
-
-.shoppinglist ul{
-	list-style: none;
-}
-.shoppinglist li{
-	padding: 10px;
-}
-
-.shoppinglist li:nth-child(odd){
-	background-color: #ebebeb;
-}
-
-.shoppinglist li:nth-child(even){
-	background-color: #d9d9d9;
+.shoppinglist tr:hover{
+	background-color: orange;
 }
 
 .gen-shoppinglist-btn,
@@ -245,7 +234,6 @@ body {
 	padding: 10px 30px;
 	margin-left: 10px;
 }
-
 .gen-shoppinglist-btn:hover,
 .select-menu-btn:hover,
 .mb-success:hover{
@@ -273,8 +261,38 @@ body {
 	justify-content: right;
 }
 
+.selectList{
+	max-height: 60vh;
+	overflow-x:hidden;
+	overflow-y: scroll;
+}
 .selectList li{
+	display: flex;
+	align-items:center;
+	list-style: none;
+	padding: 10px;
+	font-size: 24px;
 
+}
+
+.searchbar{
+	padding: 10px;
+}
+
+.searchbar input[type="text"]{
+	padding: 10px 30px;
+	border-radius: 10px;
+}
+
+.selectList p{
+	margin-left: 20px;
+}
+
+.selectList li:nth-child(odd){
+	background-color: #ebebeb;
+}
+.selectList li:nth-child(even){
+	background-color: #d9d9d9;
 }
 
 .selectList li:hover{
@@ -282,5 +300,5 @@ body {
 }
 
 .selectList .selected{
-	background-color: cadetblue;
+	background-color: cadetblue !important;
 }
