@@ -1,0 +1,678 @@
+
+[{
+  "name": "Seehecht auf Koriander-Limetten-Fettuccine",
+  "cals": 837,
+  "duration": 40,
+  "img": "seehecht-auf-koriander-limetten-fettuccine.jpg",
+  "recipe": "seehecht-auf-koriander-limetten-fettuccine.pdf",
+  "ingredients": [
+    {
+      "name": "Cashewkerne",
+      "amount": 60,
+      "unit": "g"
+    },
+    {
+      "name": "Koriander",
+      "amount": 10,
+      "unit": "g"
+    },
+    {
+      "name": "Knoblauchzehe",
+      "amount": 1,
+      "unit": "Stk"
+    },
+    {
+      "name": "Schalotte",
+      "amount": 1,
+      "unit": "Stk"
+    },
+    {
+      "name": "Limette",
+      "amount": 1,
+      "unit": "Stk"
+    },
+    {
+      "name": "Seehecht",
+      "amount": 250,
+      "unit": "g"
+    },
+    {
+      "name": "Fettuccine",
+      "amount": 270,
+      "unit": "g"
+    },
+    {
+      "name": "rote Chilischote",
+      "amount": 1,
+      "unit": "Stk"
+    },
+    {
+      "name": "Frühlingszwiebel",
+      "amount": 1,
+      "unit": "Stk"
+    }
+
+  ]
+},
+  {
+    "name": "Kohlrabi-Walnuss-Rösti mit Radieschen-Salat",
+    "cals": 628,
+    "duration": 45,
+    "img": "kohlrabi-walnuss-rosti-mit-radieschen-salat.jpg",
+    "recipe": null,
+    "ingredients": [
+      {
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": "Stk"
+      },
+      {
+        "name": "Kohlrabi",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Ofenkartoffel",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Petersilie glatt",
+        "amount": 10,
+        "unit": "g"
+      },{
+        "name": "Gewürzmischung Hello Paprika",
+        "amount": 2,
+        "unit": "g"
+      },{
+        "name": "Hartkäse geraspelt",
+        "amount": 40,
+        "unit": "g"
+      },{
+        "name": "Kirschtomaten",
+        "amount": 125,
+        "unit": "g"
+      },{
+        "name": "Pflücksalat",
+        "amount": 50,
+        "unit": "g"
+      },{
+        "name": "Schmand",
+        "amount": 150,
+        "unit": "g"
+      },{
+        "name": "Weizenmehl",
+        "amount": 25,
+        "unit": "g"
+      },{
+        "name": "Walnüsse",
+        "amount": 20,
+        "unit": "g"
+      },{
+        "name": "Radieschen",
+        "amount": 100,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "name": "Pikanter Piri-Piri-Halloumi-Wrap",
+    "cals": 1006,
+    "duration": 40,
+    "img": "pikanter-piri-piri-halloumi-wrap.jpg",
+    "recipe": "pikanter-piri-piri-halloumi-wrap.pdf",
+    "ingredients": [
+      {
+        "name": "Halloumi",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Gewürzmischung \"Hello Piri Piri\"",
+        "amount": 6,
+        "unit": "g"
+      },{
+        "name": "rote Zwiebel",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Karotte",
+        "amount": 2,
+        "unit": "Stk"
+      },{
+        "name": "Buttermilch-Zitronen-Dressing",
+        "amount": 100,
+        "unit": "ml"
+      },{
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Sahnejoghurt",
+        "amount": 75,
+        "unit": "g"
+      },
+      {
+        "name": "Salatherz (Romana)",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Tortilla-Wraps",
+        "amount": 2,
+        "unit": "Stk"
+      },{
+        "name": "Kartoffeln (Drillinge)",
+        "amount": 400,
+        "unit": "g"
+      },{
+        "name": "Petersilie",
+        "amount": 10,
+        "unit": "g"
+      },{
+        "name": "Gewürzmischung \"Hello Paprika\"",
+        "amount": 4,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "name": "Käsige Hackbällchen mit Rahmchampignons",
+    "cals": 933,
+    "duration": 40,
+    "img": "kasige-hackballchen.jpg",
+    "recipe": null,
+    "ingredients": [
+      {
+        "name": "Champignons",
+        "amount": 150,
+        "unit": "g"
+      },{
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Semmelbrösel",
+        "amount": 25,
+        "unit": "g"
+      },{
+        "name": "Gewürzmischung \"Hello Paprika\"",
+        "amount": 2,
+        "unit": "g"
+      },{
+        "name": "gemischtes Hackfleisch",
+        "amount": 300,
+        "unit": "g"
+      },{
+        "name": "Kartoffeln",
+        "amount": 400,
+        "unit": "g"
+      },{
+        "name": "Karotte",
+        "amount": 2,
+        "unit": "Stk"
+      },{
+        "name": "Gouda",
+        "amount": 50,
+        "unit": "g"
+      },{
+        "name": "Kochsahne",
+        "amount": 150,
+        "unit": "g"
+      },{
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Butter",
+        "amount": 10,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "name": "Köttbullar! Schwedische Hackbällchen",
+    "cals": 842,
+    "duration": 40,
+    "img": "kottbullar-schwedische-hackballchen.jpg",
+    "recipe": null,
+    "ingredients": [
+      {
+        "name": "Champignons",
+        "amount": 100,
+        "unit": "g"
+      },{
+        "name": "Wildpreiselbeermarmelade",
+        "amount": 50,
+        "unit": "g"
+      },{
+        "name": "vorw. festk. Kartoffeln",
+        "amount": 400,
+        "unit": "g"
+      },{
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Semmelbrösel",
+        "amount": 25,
+        "unit": "g"
+      },{
+        "name": "Petersilie",
+        "amount": 10,
+        "unit": "g"
+      },{
+        "name": "Kochsahne",
+        "amount": 150,
+        "unit": "g"
+      },{
+        "name": "Salatherz (Romana)",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "gemahlener Piment",
+        "amount": 0.5,
+        "unit": "g"
+      },{
+        "name": "gemischtes Hackfleisch",
+        "amount": 300,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "name": "Halloumi-Wrap mit cremigem Chimichurri",
+    "cals": 1090,
+    "duration": 40,
+    "img": "halloumi-wrap-mit-cremigem-chimichurri.webp",
+    "recipe": null,
+    "ingredients": [
+      {
+        "name": "vorw. festk. Kartoffeln",
+        "amount": 400,
+        "unit": "g"
+      },{
+        "name": "Gewürzmischung \"Hello Paprika\"",
+        "amount": 4,
+        "unit": "g"
+      },{
+        "name": "Tortilla-Wraps",
+        "amount": 2,
+        "unit": "Stk"
+      },{
+        "name": "Halloumi",
+        "amount": 200,
+        "unit": "g"
+      },{
+        "name": "Zucchini",
+        "amount": 1,
+        "unit": "Stk"
+      },
+      {
+        "name": "rote Paprika",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "rote Zwiebel",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Sahnejoghurt",
+        "amount": 150,
+        "unit": "g"
+      },{
+        "name": "Mayonnaise",
+        "amount": 34,
+        "unit": "ml"
+      },{
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "rote Chilischote",
+        "amount": 1,
+        "unit": "Stk"
+      },
+      {
+        "name": "Petersilie/Oregano",
+        "amount": 10,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "name": "Bulgur-Bowl mit spicy Harissa-Tofu",
+    "cals": 759,
+    "duration": 40,
+    "img": "bulgur-bowl-mit-spicy-harissa-tofu.webp",
+    "recipe": null,
+    "ingredients": [
+      {
+        "name": "Bulgur",
+        "amount": 150,
+        "unit": "g"
+      },{
+        "name": "rote Spitzpaprika",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Gurke",
+        "amount": 0.5,
+        "unit": "Stk"
+      },{
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Minze/Petersilie",
+        "amount": 10,
+        "unit": "g"
+      },{
+        "name": "Zitrone",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Tahini-Paste",
+        "amount": 50,
+        "unit": "g"
+      },{
+        "name": "Gewürzmischung \"Hello Harissa\"",
+        "amount": 4,
+        "unit": "g"
+      },{
+        "name": "veganes cremiges Sojaprodukt",
+        "amount": 100,
+        "unit": "g"
+      },{
+        "name": "Tomatenpesto",
+        "amount": 25,
+        "unit": "g"
+      },{
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Marinierter Tofu mit Basilikum",
+        "amount": 250,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "name": "Chilinudel-Pfanne in Kokos-Zitronengras-Soße",
+    "cals": 810,
+    "duration": 35,
+    "img": "chilinudel-pfanne-in-kokos-zitronengras-sosse.jpg",
+    "recipe": "chilinudel-pfanne-in-kokos-zitronengras-sosse.pdf",
+    "ingredients": [
+      {
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Zitronengras",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Ingwer",
+        "amount": 15,
+        "unit": "g"
+      },{
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "rote Paprika",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Champignons",
+        "amount": 150,
+        "unit": "g"
+      },{
+        "name": "Chili-Nudeln",
+        "amount": 200,
+        "unit": "g"
+      },{
+        "name": "Sojasoße",
+        "amount": 25,
+        "unit": "ml"
+      },{
+        "name": "Kokosmilch",
+        "amount": 250,
+        "unit": "ml"
+      },{
+        "name": "Sesamöl",
+        "amount": 20,
+        "unit": "ml"
+      },{
+        "name": "Sesam",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "rote Chilischote",
+        "amount": 1,
+        "unit": "Stk"
+      }
+    ]
+  },
+  {
+    "name": "Pizza-Suppe mit Hackfleisch und Champignons",
+    "cals": 659,
+    "duration": 40,
+    "img": "pizza-suppe-mit-hackfleisch-und-champignons.webp",
+    "recipe": "pizza-suppe-mit-hackfleisch-und-champignons.pdf",
+    "ingredients": [
+      {
+        "name": "Focaccia (Tomate)",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Hartkäse geraspelt",
+        "amount": 20,
+        "unit": "g"
+      },{
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Gemüsebrühe",
+        "amount": 6,
+        "unit": "g"
+      },{
+        "name": "stückige Tomaten",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "gemischtes Hackfleisch",
+        "amount": 200,
+        "unit": "g"
+      },{
+        "name": "Basilikum/Oregano",
+        "amount": 10,
+        "unit": "g"
+      },{
+        "name": "Kochsahne",
+        "amount": 100,
+        "unit": "g"
+      },{
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Gewürzmischung \"Hello Buan Appetito\"",
+        "amount": 2,
+        "unit": "g"
+      },{
+        "name": "Champignons",
+        "amount": 100,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "name": "Glasnudeln mit Bulgogi-Rinderhackfleisch",
+    "cals": 766,
+    "duration": 45,
+    "img": "glasnudeln-mit-bulgogi-rinderhackfleisch.jpg",
+    "recipe": null,
+    "ingredients": [
+      {
+        "name": "Glasnudeln",
+        "amount": 100,
+        "unit": "g"
+      },{
+        "name": "Simmentaler Rinderhackfleisch",
+        "amount": 300,
+        "unit": "g"
+      },{
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "rote Chilischote",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Koriander",
+        "amount": 10,
+        "unit": "g"
+      },{
+        "name": "Bulgogisoße",
+        "amount": 100,
+        "unit": "ml"
+      },{
+        "name": "Karotte",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Zucchini",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Erdnüsse",
+        "amount": 10,
+        "unit": "g"
+      },{
+        "name": "Sojasoße",
+        "amount": 25,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "name": "Blumenkohl-Taler mit buntem Rotkohlsalat & Dip",
+    "cals": 763,
+    "duration": 45,
+    "img": "blumenkohl-taler-mit-buntem-rotkohlsalat-dip.jpg",
+    "recipe": null,
+    "ingredients": [
+      {
+        "name": "geraspelter Rotkohl",
+        "amount": 200,
+        "unit": "g"
+      },{
+        "name": "Gewürzmischung \"Hello Baharat\"",
+        "amount": 4,
+        "unit": "g"
+      },{
+        "name": "Karotte",
+        "amount": 2,
+        "unit": "Stk"
+      },{
+        "name": "Blumenkohl",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "geriebener Käse",
+        "amount": 50,
+        "unit": "g"
+      },{
+        "name": "Schalotte",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Mayonnaise",
+        "amount": 34,
+        "unit": "ml"
+      },{
+        "name": "Limette",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Schmand",
+        "amount": 150,
+        "unit": "g"
+      },{
+        "name": "Gurke",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Semmelbrösel",
+        "amount": 50,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "name": "Cremige Zucchinisuppe",
+    "cals": 917,
+    "duration": 40,
+    "img": "cremige-zucchinisuppe.jpg",
+    "recipe": null,
+    "ingredients": [
+      {
+        "name": "Zucchini",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "mehligk. Kartoffeln",
+        "amount": 2,
+        "unit": "Stk"
+      },{
+        "name": "Gemüsebrühe",
+        "amount": 8,
+        "unit": "g"
+      },{
+        "name": "Créme fraîche",
+        "amount": 150,
+        "unit": "g"
+      },{
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "Gewürzmischung \"Hello Muskat\"",
+        "amount": 2.5,
+        "unit": "g"
+      },{
+        "name": "Steinofenbaguette",
+        "amount": 1,
+        "unit": "Stk"
+      },{
+        "name": "geriebener Hartkäse",
+        "amount": 40,
+        "unit": "g"
+      },{
+        "name": "Basilikum/Petersilie",
+        "amount": 10,
+        "unit": "g"
+      },{
+        "name": "geriebener Bergjausenkäse",
+        "amount": 50,
+        "unit": "g"
+      },{
+        "name": "Pinienkerne",
+        "amount": 10,
+        "unit": "g"
+      }
+    ]
+  }
+]
+

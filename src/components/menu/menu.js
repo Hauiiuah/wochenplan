@@ -44,7 +44,7 @@ const Menu = ({ menu, weekday,updateMenuCallback}) => {
 			<div className='center'>
 				<div className='center-block gray'></div>
 				{currentMenu
-					? <img src={`./assets/${currentMenu.img}`} alt={currentMenu.name} />
+					? <img src={`./assets/recipes/${currentMenu.img}`} alt={currentMenu.name} className="menu-img" />
 					: <div className='center-button-block'>
 						<button className='select-menu-btn' onClick={() => setModalVisible(true)}>Gericht auswählen</button>
 					</div> }
