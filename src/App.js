@@ -44,8 +44,7 @@ const App = () => {
 			<Layout.Header />
 			<WeekNavigator updateWeekCallback={(week) => setActualWeek(week)}/>
 			<MenuCards menus={menus} updateMenuCallback={updateMenu}/>
-			{/*<ShoppingList.ShoppingList menus={menus}/>*/}
-			<ShoppingList.ShoppingListTable menus={menus} />
+			<ShoppingList menus={menus} />
 		</div>
 	)
 }
