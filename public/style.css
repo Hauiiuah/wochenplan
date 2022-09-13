@@ -183,6 +183,50 @@ body {
 	justify-content: center;
 }
 
+.left button:hover{
+	background-color: orangered;
+}
+.shoppinglist{
+	background-color: #c4c4c4;
+	margin-top: 40px;
+	padding: 20px 20px;
+}
+.shoppinglist h3{
+	border-bottom: 1px solid black;
+}
+.shoppinglist table{
+	margin-top: 20px;
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.shoppinglist td{
+	padding: 10px;
+}
+.shoppinglist tr:nth-child(odd){
+	background-color: #ebebeb;
+}
+
+.shoppinglist tr:nth-child(even){
+	background-color: #d9d9d9;
+}
+
+.shoppinglist ul{
+	list-style: none;
+}
+.shoppinglist li{
+	padding: 10px;
+}
+
+.shoppinglist li:nth-child(odd){
+	background-color: #ebebeb;
+}
+
+.shoppinglist li:nth-child(even){
+	background-color: #d9d9d9;
+}
+
 .gen-shoppinglist-btn,
 .select-menu-btn,
 .modal-button{

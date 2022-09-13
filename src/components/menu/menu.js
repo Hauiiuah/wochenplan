@@ -59,7 +59,7 @@ const Menu = ({ menu, weekday,updateMenuCallback}) => {
 					setCurrentMenu(null)
 					updateMenuCallback(null)
 				}}>
-					<span className='delete'></span>Delete
+					<span className='delete'></span>
 				</button> : <></>}
 			</div>
 		</div>

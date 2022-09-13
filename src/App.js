@@ -5,9 +5,6 @@ import {useState, useEffect} from "react";
 
 import MenuProvider from "./services/menuProvider";
 
-
-
-
 const App = () => {
 
 
@@ -47,7 +44,8 @@ const App = () => {
 			<Layout.Header />
 			<WeekNavigator updateWeekCallback={(week) => setActualWeek(week)}/>
 			<MenuCards menus={menus} updateMenuCallback={updateMenu}/>
-			<ShoppingList menus={menus}/>
+			{/*<ShoppingList.ShoppingList menus={menus}/>*/}
+			<ShoppingList.ShoppingListTable menus={menus} />
 		</div>
 	)
 }
