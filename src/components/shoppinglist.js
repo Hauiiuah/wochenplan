@@ -60,8 +60,7 @@ const ShoppingListTable = ({menus})=>{
             <h3>Einkaufsliste</h3>
 
             <table>
-
-                {Object.keys(shoppingList).map(key =>
+                {Object.keys(shoppingList).sort().map(key =>
                     <tr key={key} >
                         <td width="1%"><strong>{shoppingList[key].amount}</strong></td>
                         <td width="1%">{shoppingList[key].unit}</td>
