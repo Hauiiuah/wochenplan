@@ -95,6 +95,28 @@ body {
 	justify-content: center;
 }
 
+.week{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	color: white;
+	padding: 5px 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.week button{
+	background-color: white;
+	color: black;
+	padding: 10px;
+
+}
+
+.week button:hover{
+	background-color: orange;
+}
+
 .weekday {
 	padding-left: 20px;
 	padding-top: 5px;

@@ -24,9 +24,9 @@ const WeekNavigator = ({updateWeekCallback})=>{
 
     return (
         <div className='week'>
-            <button onClick={() => changeWeek(-1)} >&lt;-</button>
+            <button onClick={() => changeWeek(-1)} >&lt;</button>
             {dateString}
-            <button onClick={() => changeWeek(1)} >-&gt;</button>
+            <button onClick={() => changeWeek(1)} >&gt;</button>
         </div>)
 }
 
