@@ -34,7 +34,7 @@ const RecipeSelector = ({selectRecipeCallback}) => {
                         const isSelected = selectedRecipe?._id === recipe._id ? "selected" : ""
                         return (
                             <li key={recipe._id} className={isSelected} onClick={()=>{localSelectRecipe(recipe)}}>
-                                <img src={`./assets/recipes/${recipe.img}`} alt={recipe.name} className="menu-img" /> <p>{recipe.name}</p>
+                                <img src={`./assets/recipes/${recipe.img}`} alt={recipe.name} className="menu-img" /> <p>{recipe.name}</p> {recipe.recipe ? <img className="download-recipe" src={`./assets/file-document-outline.png`} /> :<span className="block"></span>}
                             </li>
                         )
                     }

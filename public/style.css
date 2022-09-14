@@ -271,12 +271,19 @@ body {
 .selectList li{
 	display: flex;
 	align-items:center;
+	justify-content: space-between;
 	list-style: none;
 	padding: 10px;
 	font-size: 24px;
 
 }
-
+.download-recipe{
+	margin-right: 30px;
+}
+.block{
+	width: 20px;
+	height: 30px;
+}
 .searchbar{
 	padding: 10px;
 }
